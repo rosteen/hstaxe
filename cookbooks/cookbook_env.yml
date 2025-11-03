@@ -1,11 +1,11 @@
 name: hstaxe_cookbook_acs_wfc3
 channels:
-- defaults
+- conda-forge
 dependencies:
 - autoconf 
 - automake
 - cfitsio
-- conda-forge::wcstools
+- wcstools
 - gsl
 - hstcal>=2.7.2
 - libtool
