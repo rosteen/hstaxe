@@ -11,6 +11,13 @@ https://github.com/spacetelescope/slitlessutils and https://slitlessutils.readth
 for your work, and please give us feedback on the new tool and how we can best support your
 transition to using Slitlessutils.
 
+A stable, working version of HSTaXe is available as a Docker image at
+https://stsci.box.com/shared/static/6a75go3d0yqc627bts2yuqk0veancylh.tar. To load this image into
+your local Docker instance, use the command `docker load --input hstaxe_docker_image.tar`. Note
+that the image is only available as a Linux x86_64 platform, so you may experience poorer
+performance if running the image on a machine with a different architecture (e.g. a Mac with
+ARM64 architecture).
+
 HSTaXe
 ======
 
