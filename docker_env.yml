@@ -1,0 +1,23 @@
+name: hstaxe_env
+channels:
+- defaults
+dependencies:
+- autoconf
+- automake
+- cfitsio
+- gsl
+- libtool
+- make
+- pip
+- pkg-config
+- python=3.10
+- conda-forge::hstcal>=2.7.2
+- conda-forge::wcstools
+- pip:
+    - crds
+    - ginga<4.1
+    - jupyter
+    - acstools
+    - numpy<2.0
+    - git+https://github.com/spacetelescope/wfc3tools.git
+    - git+https://github.com/spacetelescope/hstaxe.git
